@@ -10,6 +10,8 @@
     <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
     <script>
 
+        var ele = React.createElement('h1', { className: "red-title"}, 'Hello');
+        console.log(ele)
         ReactDOM.render(
           React.createElement('h1', { className: "red-title"}, 'Hello world'),
           document.getElementById("app")
